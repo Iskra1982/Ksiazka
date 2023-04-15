@@ -335,9 +335,6 @@ html { }
 .mx_Pill .mx_Pill_text { min-width: 0px; }
 .mx_Pill .mx_Pill_text, a.mx_Pill { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 a.mx_Pill { text-decoration: none !important; }
-.mx_Pill .mx_Pill_LinkIcon { background-color: rgb(4, 103, 221); color: rgb(255, 255, 255); padding: 1px; }
-.mx_Pill .mx_Pill_LinkIcon, .mx_Pill .mx_Pill_UserIcon { box-sizing: border-box; height: 16px; width: 16px; }
-.mx_Pill .mx_Pill_UserIcon { color: rgb(115, 125, 140); }
 @media only percy {
   .mx_ReplyChain { border-left-color: var(--percy-color-replyChain-border) !important; }
 }
@@ -416,6 +413,8 @@ a.mx_Pill { text-decoration: none !important; }
 .mx_MessageTimestamp { --MessageTimestamp-max-width:80px; --MessageTimestamp-color:#acacac; font-feature-settings: "tnum"; color: var(--MessageTimestamp-color); display: block; font-size: 1rem; font-variant-numeric: tabular-nums; user-select: none; white-space: nowrap; width: 46px; }
 .mx_RedactedBody { color: rgb(97, 112, 139); padding-left: 20px; position: relative; vertical-align: middle; white-space: pre-wrap; }
 .mx_RedactedBody::before { background-color: rgb(97, 112, 139); content: ""; height: 14px; left: 0px; -webkit-mask-image: url("../../img/feather-customised/trash.custom.cce34e6.svg"); -webkit-mask-position: center center; -webkit-mask-repeat: no-repeat; -webkit-mask-size: contain; position: absolute; top: 1px; width: 14px; }
+.mx_RoomAvatarEvent { opacity: 0.5; overflow-y: hidden; }
+.mx_RoomAvatarEvent_avatar { display: inline; position: relative; top: 5px; }
 .mx_TextualEvent { line-height: normal; opacity: 0.5; overflow-y: hidden; }
 .mx_TextualEvent a { color: rgb(13, 189, 139); cursor: pointer; }
 @-webkit-keyframes mx_AppLoading_spinner_fadeIn_animation { 
